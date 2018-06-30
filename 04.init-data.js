@@ -147,7 +147,7 @@ function remove (arr, item) { // 移除数组中的某个元素
 	return arr.splice(index, 1);
 }
 // 
-class Watcher {}
+
 // 4-2. 普通对象的所有属性转为getter setter
 function defineReactive (obj, key, val, customSetter) {
 
